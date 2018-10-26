@@ -1,0 +1,47 @@
+{
+  "name": "hyper-darkmac-slim",
+  "version": "1.0.0",
+  "description": "Make Hyper adapt to the macOS Dark UI",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo",
+    "precommit": "npm run test"
+  },
+  "files": [
+    "index.js",
+    "styles.css"
+  ],
+  "xo": {
+    "esnext": true,
+    "space": true,
+    "semicolon": false,
+    "globals": [
+      "document"
+    ]
+  },
+  "repository": "immackay/hyper-darkmac-slim",
+  "keywords": [
+    "hyper",
+    "theme",
+    "ui",
+    "native",
+    "mac",
+    "hyper-theme",
+    "dark"
+  ],
+  "author": "immackay",
+  "license": "MIT",
+  "plugin": {
+    "title": "Hyper Native",
+    "caption": "Make Hyper adapt to the macOS UI",
+    "preview": "http://i.imgur.com/eeRssvz.png",
+    "colors": [
+      "#1e1e1e",
+      "#FFFFFF"
+    ]
+  },
+  "devDependencies": {
+    "husky": "0.14.3",
+    "xo": "0.18.2"
+  }
+}
